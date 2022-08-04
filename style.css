@@ -1,0 +1,114 @@
+/*! hover (при наведениии курсора) */
+/* div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+} */
+
+/* div:hover {
+  background-color: yellow;
+  transition: 2s;
+} */
+/*! visited (подсвечивает посещеннные сайты) */
+/* a:visited {
+  color: green;
+} */
+/*! active (подсвечивает ссылку/элемент в момент нажатия)*/
+/* a:active {
+  color: black;
+}
+.block {
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+}
+.block:active {
+  background-color: darkblue;
+} */
+/*! first-child(last/nth-обращение только к определенному элементу на странице)*/
+/* ul {
+  list-style-type: none;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: darkblue;
+  margin-bottom: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li:first-child > div {
+  background-color: yellow;
+}
+li:nth-child(3) > div {
+  background-color: red;
+} */
+/*! focus(отрабатывает при фокусировке на элементе) */
+/* input {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+  transition: 0.8s;
+} */
+/* input:focus {
+  background-color: blueviolet;
+  transform: 0.8s;
+} */
+/* !not(задает стили всему, что не содержит данный селектор) */
+/* .div-1,
+.div-2 {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+div:not(.div-2) {
+  background-color: blue;
+} */
+/* !valid/invalid(проверка данных в инпуте) */
+/* input:valid {
+  background-color: darkgreen;
+}
+input:invalid {
+  background-color: red;
+} */
+/* !псевдоэлементы */
+/* !after/before */
+/* h1::before {
+  content: "world!";
+}
+p::after {
+  content: "salut!";
+} */
+/* !selection(применяет стили к выделенному тексту) */
+/* p::selection {
+  color: darkblue;
+  background-color: black;
+} */
+/* !first-letter */
+/* h1::first-letter {
+  color: brown;
+  font-size: 55px;
+} */
+
+/* !first-line */
+/* p::first-line {
+  color: red;
+  font-size: 25px;
+} */
+/* !odd/even */
+/* li:nth-child(odd) {
+  color: red;
+} */
+li:nth-child(3n) {
+  color: aqua;
+}
